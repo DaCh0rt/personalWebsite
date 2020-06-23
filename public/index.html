@@ -41,6 +41,7 @@
   h3{
     letter-spacing: 1px;
     font-size: 1.1em;
+    font-weight: bold;
   }
   p{
     font-size: .95em;
@@ -79,21 +80,6 @@
   <span style="display:block; height: 2vw;"></span>
   <div id="title" class="jumbotron text-center" style="margin-left: 5vw; margin-right: 5vw;background-color: rgba(117,34,108,.9);">
     <h1>Ian James Harvey</h1>
-
-    <div class="row">
-      <div class="col">
-        ianharvey95@gmail.com
-      </div>
-      <div class="col">
-        <a href="https://www.linkedin.com/in/ian-harvey-1b1258115/">linkedin.com</a>
-      </div>
-      <div class="col">
-        <a href="https://github.com/dach0rt">github.com/DaCh0rt</a>
-      </div>
-      <div class="col">
-        <a href="https://play.ianharvey.dev/">I'm feeling lucky</a>
-      </div>
-    </div>
   </div>
 
   <div id="buttons" class="row" style="margin-left: 5vw; margin-right: 5vw;">
@@ -121,11 +107,15 @@
     <div class="row" style="background-color: rgba(0,0,0,.9); margin: 2vw">
       <div class="col-sm">
       	<span style="display:block; height: 1.5vw;"></span>
-        <h2 id="p1">Education</h2>
-        <h3>Bachelor of Science | Fall 2017-Spring 2019 | University of Central Florida</h3>
-        <p>Computer Science, UCF Cumulative GPA: 3.7/4.0</p>
-        <h3>Associates in Arts | Fall 2014-Spring 2017 | Vallencia College</h3>
-        <p>Articulated AA to UCF for Computer Science, Cumulative GPA 3.4/4.0</p>
+        <div id="blocks">
+          <h2 id="p1">Education</h2>
+          <h3>Bachelor of Science | Fall 2017-Spring 2019 | University of Central Florida</h3>
+          <p>Computer Science, UCF Cumulative GPA: 3.7/4.0</p>
+        </div>
+        <div>
+          <h3>Associates in Arts | Fall 2014-Spring 2017 | Vallencia College</h3>
+          <p>Articulated AA to UCF for Computer Science, Cumulative GPA 3.4/4.0</p>
+        </div>  
         <span style="display:block; height: 5vw;"></span>
         
         <h2 id="p2">Skills</h2>
@@ -188,6 +178,17 @@
             	</div>
             </div>
           </li>
+
+          <li>
+            <h3>Playground Website</h3>
+            <div class="row">
+              <div class="col">
+                You can check out my website <a href="https://play.ianharvey.dev/" title="https://play.ianharvey.dev/" style="text-decoration: underline;">here.</a><br><br>
+                I developed a website to get familiar with JavaScript and node as well as incorporating the particles.js package. Having multiple websites also pushed me to learn how to use nginx as a reverse proxy that can route different domains on the same server to different node servers to serve the content.
+              </div>
+            </div>
+          </li>
+
           <li>
           	<h3>Recursive Descent Compiler</h3>
             <div class="row">
@@ -203,13 +204,13 @@
             	</div>
             </div>
           </li>
-          <li>
+<!--           <li>
             <div>
               <h3>UCF Innovation Lab App</h3>
               <p>Technologies Used: NativeScript, Typescript, XML, MySQL</p>
               <p>This was one of my first attempts to build an app. It was for a beginning object oriented design class and thru the research I had to do for the project I learned a lot about what technologies are being used today in the market. It was very challenging due to everything being new and in hindsight we chose not the best technology stack and perhaps were too ambitious for just starting. We achived the minimal viable product and had something to show for our efforts but in the future I was much more careful about choosing stacks.</p>
             </div>
-          </li>
+          </li> -->
         </ul>
         <span style="display:block; height: 5vw;"></span>
 
@@ -243,6 +244,14 @@
   <div class="jumbotron text-center" style="margin-left: 5vw; margin-right: 5vw; margin-top: 5vw; background-color: rgba(34,117,114,.9);">
     <h1>Fin</h1>
     <p>If you have any questions about anything seen here don't hesitate to contact me via email. I can also offer a resume upon request. Thank you.</p>
+    <br>
+    <div class="row">
+      <div class="col">
+        <a href="mailto:ianharvey95@gmail.com" title="ianharvey95@gmail.com"><img src="email.png"></a>
+        <a href="https://www.linkedin.com/in/ian-harvey-1b1258115/" title="https://www.linkedin.com/in/ian-harvey-1b1258115/"><img src="linkedin.png"></a>
+        <a href="https://github.com/dach0rt" title="https://github.com/dach0rt"><img src="github.png"></a>
+      </div>
+    </div>
   </div>
   <span style="display:block; height: 2vw;"></span>
 </div>
